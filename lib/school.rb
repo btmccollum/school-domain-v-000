@@ -21,12 +21,12 @@ class School
     if roster.include?(grade) == false
       roster[grade] = []
       roster[grade] << name
-    else 
+    else
       roster[grade] << name
     end
   end
 
-    @roster[@grade] << "#{@name}"
+    # @roster[@grade] << "#{@name}"
   end
 # binding.pry
 end
