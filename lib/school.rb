@@ -7,21 +7,18 @@ class School
 
   def initialize(name)
     @name = name
-    
+
   end
 
-  def roster
+  def roster #keys will be the grade names, values will be an array of student names
     roster = {}
   end
-  # def age=(age)
-  #   @age = age
-  # end
 
   def add_student(name, grade)
     @name = name
     @grade = grade
-    roster["grade"] = []
-    roster["grade"] << @name
+    roster["#{@grade}"] = []
+    roster["#{@grade}"] << @name
   end
 # binding.pry
 end
