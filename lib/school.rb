@@ -3,7 +3,7 @@ require 'pry'
 # code here!
 class School
   # attr_accessor :student
-  attr_reader :name
+  attr_reader :name, :age
 
   def initialize(name)
     @name = name
@@ -11,6 +11,10 @@ class School
 
   def roster
     roster = {}
+  end
+
+  def age=(age)
+    @age = age
   end
 
   def add_student(name, age)
