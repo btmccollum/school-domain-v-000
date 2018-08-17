@@ -20,7 +20,8 @@ class School
   def add_student(name, grade)
     @name = name
     @grade = grade
-    roster[Student] = []
+    roster[Grade] = []
+    roster[Grade] << @name
   end
 # binding.pry
 end
