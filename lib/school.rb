@@ -21,7 +21,7 @@ class School
     @name = name
     @grade = grade
     roster["grade"] = []
-    roster["grade"] << @name, @grade
+    roster["grade"] << @name
   end
 # binding.pry
 end
