@@ -12,5 +12,5 @@ class School
   def roster
     roster = {}
   end
-binding.pry
+# binding.pry
 end
