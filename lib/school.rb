@@ -18,6 +18,7 @@ class School
     @name = name
     @grade = grade
     @roster["#{@grade}"] = []
+    binding.pry
     @roster[@grade] << "#{@name}"
   end
 # binding.pry
