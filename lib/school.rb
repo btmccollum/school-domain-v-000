@@ -2,7 +2,7 @@ require 'pry'
 
 # code here!
 class School
-  # attr_accessor
+  attr_accessor :student
   attr_reader :name
 
   def initialize(name)
