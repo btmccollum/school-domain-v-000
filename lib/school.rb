@@ -5,7 +5,7 @@ class School
   # attr_accessor :student
   attr_reader :name, :age
 
-  def initialize(name, )
+  def initialize(name)
     @name = name
     roster
   end
